@@ -15,12 +15,10 @@
             </ul>
         </nav>
     </header>
-    <h1>Contacto</h1>
 
     <main>
-        <h2>Registro</h2>
-            <form action="welcome.html"> 
-                <legend>Contacto</legend>
+        <form action="welcome.html"> 
+                <h2>Registro</h2>
 
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required minlength="10" maxlength="50">
@@ -32,18 +30,17 @@
                 <input type="password" id="contraseña" name="contraseña" required minlength="8">
 
                 <label for="fechaNacimiento">Fecha de Nacimiento</label>
-                <input type="date" name="" id="fechaNacimiento" required>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento" required>
 
                 <label for="direccion">Direccion</label>
                 <textarea id="mensaje" name="mensaje" rows="4" required minlength="10"></textarea>
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono" required>
 
-                <button type="submit">Enviar</button>
+                <button type="submit">Registrarse</button>
+
+                <label>¿Ya tienes Cuenta? <a href="login.html">Inicia Sesión</a></label>
         </form>
     </main>
-    <div>
-        <footer>
-            <p>&copy; 2025 Mi pagina web - Todos los derechos reservados</p>
-        </footer>
-    </div>
 </body>
 </html>
